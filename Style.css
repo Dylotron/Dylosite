@@ -1,17 +1,0 @@
-html {
-	background-color: black;
-	}				
-body {	min-height: 100vh;
-	margin: 10px auto;	padding: 10px 0;			
-	font: 17px "Arial";	line-height: 1.3;
-	color: white;	max-width: 1500px;	display: grid;	grid-template-columns: 170px 2px 1fr;	gap: 10px;	border-radius: 25px;
-	}header {	position: relative;	height: 80px;	}	header h1 {	position: fixed;	width: 100px;	font:53px "Arial Black";	margin: 30px auto auto 10px;	line-height: 0.2;	}	img {	display: block;	max-width: 35%;	max-height: 1505;	float: left;	margin-right: 10px;	}	pre {	font: 17px "Courier New";	text-align: center;	white-space: pre-wrap;	word-wrap: break-word;	}	.bodygrid {	max-width: 100%;	display: grid;	grid-template-columns: 1fr 1fr;	gap: 10px;	}	.divider {	background-color: white;	width: 100%;	height: 100%;	}
-.bodybox {	clear: both;	overflow: hidden;	background-size: 100%;
-	padding: 10px;
-	}	.bodybox h2 {	font:22px "Arial Black";	line-height: 0.5;	}.nav {	position: fixed;	display: flex;	flex-direction: column;	width: 150px;	margin: auto 5px 0px 15px;	}.nav a {	text-decoration: none;	text-align: right;	color: white;	font: 20px "Arial Black";	border:2px solid transparent;	}				
-.nav a:hover {
-	border-bottom:2px solid white;
-	}
-					
-.nav a.active {	border-left:5px solid white;
-	}
